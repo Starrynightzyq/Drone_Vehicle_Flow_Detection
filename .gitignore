@@ -1,0 +1,21 @@
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+
+docs/images/1.mp4
+docs/images/2.mp4
+docs/images/3.mp4
+
+checkpoint/*
+
+output/*
+
+VisDrone2018-tf-yolo/images/*
+
+data/detection/*
+
+*.pb
+
+

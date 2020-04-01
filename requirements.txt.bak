@@ -1,0 +1,8 @@
+numpy==1.16
+pillow==6.2.0
+scipy==1.1.0
+wget==3.2
+seaborn==0.9.0
+easydict==1.9
+opencv-python==3.4.2.17
+opencv-contrib-python==3.4.2.17
