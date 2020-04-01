@@ -19,7 +19,7 @@
 
 目前检测 VisDrone 数据集的正确率已经比较高了
 
-![mAP](/home/fitz/vehicle/tensorflow-serving-yolov3/mAP/mAP.png)
+![mAP](mAP/mAP.png)
 
 **目前只做好了检查，还没有做计数的功能！**
 
