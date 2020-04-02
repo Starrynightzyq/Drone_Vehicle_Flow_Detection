@@ -25,6 +25,11 @@
 
 目前已经做好了计数功能。
 
+# Part0. 资源下载
+
+[yolov3_visdrone.pb(训练好的模型百度网盘链接)](https://pan.baidu.com/s/185IsU0JwSDpu4_rM1Nd-Zw) 提取码: 8jqg
+[VisDrone2018-tf-yolo(筛选过的数据集百度网盘链接)](https://pan.baidu.com/s/1BdEpondAfU2qovHjXukXQQ) 提取码: ux34
+
 # Part1. Demo展示
 
 1. 进入文件夹，安装需要的软件
