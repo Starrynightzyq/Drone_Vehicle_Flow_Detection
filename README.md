@@ -1,6 +1,6 @@
 # Introduction
 
-使用了 [tensorflow-serving-yolov3](https://github.com/Byronnar/tensorflow-serving-yolov3) 的算法，原版的 yolo 算法训练的过程对 GPU 要求较高，因此使用了 tensorflow 版本的 yolo 算法。
+对视频中的车流量进行统计，目前使用 2070super 可以达到 30fps 的速度。使用了 [tensorflow-serving-yolov3](https://github.com/Byronnar/tensorflow-serving-yolov3) 的算法，原版的 yolo 算法训练的过程对 GPU 要求较高，因此使用了 tensorflow 版本的 yolo 算法。
 
 在原版的 tensorflow-serving-yolov3 上主要修改了：
 
@@ -16,6 +16,8 @@
 - 增加了 VisDrone 数据集，位置在 `./VisDrone2018-tf-yolo/`
 
   训练好的模型在 `./yolov3_visdrone.pb`
+  
+- 移植了 [iou-tracker](https://github.com/bochinski/iou-tracker) 算法，实现了多目标追踪，将多帧画面中的物体进行关联，实现对车辆运动轨迹的检测，当检测到车辆轨迹穿过检测线时进行计数。
 
 目前检测 VisDrone 数据集的正确率已经比较高了
 
