@@ -23,7 +23,15 @@
 
 ~~目前只做好了检查，还没有做计数的功能!~~
 
-目前已经做好了计数功能。
+目前已经做好了计数功能，效果如下：
+
+检测：
+
+![detecting](docs/images/detect.gif)
+
+计数：
+
+![counting](docs/images/counting.gif)
 
 # Part0. 资源下载
 
